@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products & Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Our Goods & Services</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div class="item">
+            <img src="images/laptop.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>$1200</p>
+            <button onclick="addToCart('Laptop', 1200)">Buy</button>
+        </div>
+        <div class="item">
+            <img src="images/headphones.jpg" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>$200</p>
+            <button onclick="addToCart('Headphones', 200)">Buy</button>
+        </div>
+        <div class="item">
+            <img src="images/usb.jpg" alt="USB Drive">
+            <h3>USB Drive</h3>
+            <p>$25</p>
+            <button onclick="addToCart('USB Drive', 25)">Buy</button>
+        </div>
+        <div class="item">
+            <h3>IT Consulting</h3>
+            <p>$150/hr</p>
+            <button onclick="addToCart('IT Consulting', 150)">Buy</button>
+        </div>
+        <div class="item">
+            <h3>Computer Repair</h3>
+            <p>$100/hr</p>
+            <button onclick="addToCart('Computer Repair', 100)">Buy</button>
+        </div>
+        <div class="item">
+            <h3>Software Setup</h3>
+            <p>$50/hr</p>
+            <button onclick="addToCart('Software Setup', 50)">Buy</button>
+        </div>
+    </main>
+</body>
+</html>
