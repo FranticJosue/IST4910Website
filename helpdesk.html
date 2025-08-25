@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Helpdesk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Helpdesk</h1>
+    <form id="helpdeskForm">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="issue">Describe Your Issue:</label><br>
+        <textarea id="issue" name="issue" rows="5" required></textarea><br><br>
+
+        <button type="submit">Submit Ticket</button>
+    </form>
+
+    <div id="confirmation" style="display:none; color: green; margin-top: 10px;">
+        Your ticket has been submitted!
+    </div>
